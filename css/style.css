@@ -1,0 +1,103 @@
+:root {
+    --pr-color : #D0D3D9
+}
+
+body{
+    font-family: 'Berkshire Swash', cursive;
+font-family: 'Roboto', sans-serif;
+background-color:#75ACF6;
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link.activer{
+  font-weight: 700;  
+}
+
+.button-secondary{
+    width: 133px;
+    height: 40px;
+    background-color: #75ACF6;
+    color: #000000
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.button-primaty{
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    color:#000000
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+#hero{
+    background: linear-gradient(160deg, ver(--pr-color), #000000;
+    height: 100vh;
+    width: 100%;
+}
+
+.img-hero {
+    height: 100%;
+}
+
+.hero-tegline h1 {
+  color: #ffff;
+  font-weight: 700;
+  font-size: 30px;  
+}
+
+.hero-tegline p {
+    font-size: 16px;
+    color: aliceblue;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 85%;
+    
+}
+
+.button-secondary{
+    width: 237px;
+    height: 70px;
+    background-color: #ffff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+}
+
+/* Dokter Yang Tersedia Hari ini */
+#layanan {
+    padding: 100px 0;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #eef0f1;
+}
+    
+.sub-title{
+    font-size: 18px;
+    color: #000;
+}
+
+.card-layanan {
+    width: 295px;
+    height: 97px;
+    border-radius: 10px ;
+    background-color: #bbb2b0;
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0
+
+}
